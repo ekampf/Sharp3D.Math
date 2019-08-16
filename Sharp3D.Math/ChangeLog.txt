@@ -1,0 +1,10 @@
+Version 1.2:
+- Added array lists for vector structures.
+- Added Polygon class to Geometry3D and Geometry2D namespaces.
+- Added a Triangle structure to the Geometry3D namespace.
+- Intersection Methods : Ray to plane, AABB, OBB, Triangle and Sphere.
+- Intersection Methods between AABB, OBB and Sphere.
+- Added <, > , <=, >= operators to the vector structures.
+- Added IIntegrator implementations : SimpsonIntegral
+- Implemented the Parse method for vectors and complex numbers.
+- Created Sharp3D.Math.Tests library and moved all unit testing classes there so that Sharp3D.Math is no longer dependent on NUnit.Framework.dll
